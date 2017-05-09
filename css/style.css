@@ -256,7 +256,7 @@ button-hover {
 	background-color: #f6f6f6;
 	height: calc(100% - 51px);
 	width: 100%;
-	min-height: 700px;
+	min-height: 600px;
 }
 
 .fototeamnotes {
@@ -444,7 +444,7 @@ button-hover {
 	float: left;
 }
 .phone-mobile {
-	width: 25px;
+	width: 20px;
 }
 .pin {
 	width: 25px;
@@ -453,7 +453,7 @@ button-hover {
     margin-right: 10px;
 }
 .pin-mobile {
-	width: 25px;
+	width: 20px;
 }
 .datos {
 	position: absolute;
