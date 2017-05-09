@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CVM | Servicios en sistemas</title>
+		<meta charset="UTF-8"> <!--Encoding -->
+    <meta name="pinterest" content="nopin" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Movile first -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-fixed-top navbar-default">
+		  	<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="buttonnavbar navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <img src="./images/logo.png">
+			    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#inicio">Inicio</a></li>
+					<li><a href="#about">Quienes somos</a></li>
+					<li><a href="#about">Clientes</a></li>
+					<li><a href="#servicios">Servicios</a></li>
+					<li><a href="#teamnotes">Team Notes</a></li>
+					<li><a href="#contact">Contactos</a></li>
+			       </ul>
+	    		</div><!-- /.navbar-collapse -->
+ 			</div><!-- /.container-fluid -->
+		</nav>
+
+		<section class="inicio valign-wrapper" id="inicio">
+			<div class="valign centered">
+				<p class="hidden-xs">Somos expertos en</br>desarrollo de software</p>
+				<p class="visible-xs">Somos expertos</br>en desarrollo</br>de software</p>
+				<button>¡Conocenos mejor!</button>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div>
+				<h3>About</h3>
+			</div>
+			<div>
+				<h4>Quiénes somos</h4>
+			</div>
+			<div class="text">
+				<p><span>Un equipo entrenado en brindar respuestas eficientes y creativas a las distintas aplicaciones que las empresas necesitan.</span></p>
+				<p>El perfil de nuestra gente se centra en ingenieros en sistemas, programadores, técnicos en redes y telemática, asistentes CRM especializados en atención al cliente y rápida solución de consultas.</p>
+				<p>Apoyados en el sólido know how de nuestros proyectos, contamos con amplia trayectoria en desarrollo y consultoría, comprendiendo el core business de nuestros clientes para obtener optimización de resultados. </p>
+				<p>Nuestra misión es ser una empresa comprometida con cada proyecto, fortaleciendo el desarrollo del potencial de nuestros clientes desde el área de sistemas.</p>
+			</div>
+			<div>
+				<img class="fotoabout hidden-xs" src="./images/fotoabout.png">
+			</div>
+		</section>
+
+		<section class="clients " id="clients">
+			<div>
+				<p>Algunos de nuestros clientes</p>
+			</div>
+			<div class="container valign-wrapper">
+				<div class="row hidden-xs">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <img class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 logos" src="./images/logos1.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <img class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 logos" src="./images/logos2.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					    <div class="item">
+					      <img class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 logos" src="./images/logos3.png" alt="...">
+					      <div class="carousel-caption">
+					      </div>
+					    </div>
+					  </div>
+
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					    <img src=./images/flechaizq.png aria-hidden="true"></img>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					    <img src=./images/flechader.png aria-hidden="true"></img>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>	
+			</div>
+		</section>
+
+		<section class="serviciosA" id="servicios">
+			<div>
+				<h3>Que te ofrecemos</h3>
+			</div>
+			<div>
+				<h4>Nuestros 10 anos en el mercado garantizan nuestro conocimiento de las distintas realidades y tipos de empresas.</h4>
+			</div>
+		</section>
+		<section class="serviciosB">	
+			<div class="container valign-wrapper">
+				<div class="row">
+					<div class="servicio1 centered col-lg-4 col-md-4 col-xs-12">
+						<img class="icon" src="./images/icon1.png">
+						<p class="tittle">Desarrollo de software</p>
+						<span class="line"></span>
+						<p>Si usted es un startup o un negocio establecido, estamos listos para ayudarle en todas las etapas del ciclo de vida de desarrollo de software desde la conceptualización y consultoría hasta el desarrollo y soporte.</p>
+					</div>
+					<div class="servicio2 centered col-lg-4 col-md-4 col-xs-12">
+						<img class="icon" src="./images/icon2.png">
+						<p class="tittle">Desarrollo de Aplicacion Movil</p>
+						<span class="line"></span>
+						<p>Desarrolle aplicaciones móviles potentes y altamente utilizables que solucionen problemas empresariales, atraigan usuarios y refuercen su marca. Creamos aplicaciones híbridas y multiplataforma que se ejecutan en todos los principales sistemas operativos.</p>
+					</div>
+					<div class="servicio3 centered col-lg-4 col-md-4 col-xs-12">
+						<img class="icon" src="./images/icon3.png">
+						<p class="tittle">Desarrollo de Aplicacion Web</p>
+						<span class="line"></span>
+						<p>Nuestros ingenieros de software tienen una gran experiencia en la construcción de aplicaciones web. También somos expertos en muchos dominios verticales y de negocios, incluyendo comercio electrónico, e-Learning, AdTech, finanzas, entretenimiento y más.</p>
+					</div>
+				</div>
+			</div>	
+		</section>
+
+		<section class="teamnotes" id="teamnotes">
+			<div>
+				<h2>Team Notes</h2>
+			</div>
+			<div>
+				<h4>¿Cómo funciona Team Notes?</h4>
+			</div>
+			<div class="text">
+				<p><span>Un equipo entrenado en brindar respuestas eficientes y creativas a las distintas aplicaciones que las empresas necesitan.</span></p>
+				<p>El perfil de nuestra gente se centra en ingenieros en sistemas, programadores, técnicos en redes y telemática, asistentes CRM especializados en atención al cliente y rápida solución de consultas.</p>
+			</div>
+			<div>
+				<button class="buttonteamnotes">Lo quiero ya!</button>
+			</div>
+			<div class="slogan">
+				<div class="triangle" style="position:static; bottom:0!important;"></div>
+				<div class="slogancontent">
+					<p class="slogantext">La mejor manera de mantener a tu equipo informado</p>
+					<button>Mas informacion</button>
+				</div>
+			</div>
+			<div>
+				<img src="./images/fototeamnotes.png" class="fototeamnotes hidden-xs">
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+			<form>
+				<div>
+					<h3>Contactanos</h3>
+				</div>
+				<div>
+					<h4>Queremos que nos cuentes tus proyectos para poder brindarte el mejor servicio</h4>
+				</div>
+				<div class="container">
+					<div class="row rowcontact">
+						<div class="col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3">
+							<input class="nombre" placeholder="Nombre y apellido" required>
+						</div>
+						<div class="col-lg-3 col-md-3">
+							<input class="nombre" type="email" placeholder="Correo electrónico" required>
+						</div>
+					</div>
+					<div class="row rowcontact">
+						<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-xs-12">
+							<textarea class="mensaje" rows="2">Mensaje</textarea>
+						</div>
+					</div>
+					<div class="row">
+						<button type="submit" class="enviarbutton col-md-1 col-md-offset-8 col-lg-1 col-lg-offset-8 col-xs-3 col-xs-offset-9">Enviar</button>
+					</div>
+				</div>
+			</form>
+			<div class="contact2">
+				<div class="datos">
+					<div class="row hidden-xs">
+						<span><img class="phone" src="./images/phone.png"></span>
+						<span class="datos-text">(5411) 4962 - 5353</span>
+					</div>
+					<div class="row hidden-xs">
+						<span><img class="pin" src="./images/pin.png"></span>
+						<span class="datos-text">Paraguay 2342 - 16º C</br>Cap. Federal / Argentina</br>C1121ABL</span>
+					</div>
+				</div>
+			</div>
+			<div class="contact2-mobile visible-xs">
+					<span><img class="phone-mobile" src="./images/phone.png"></span>
+					<span class="datos-text">(5411) 4962 - 5353</span>
+					</br>
+					<span><img class="pin-mobile" src="./images/pin.png"></span>
+					<span class="datos-text">Paraguay 2342 - 16º C</br>Cap. Federal / Argentina / C1121ABL</span>
+			</div>
+			<div class="triangle-map"></div>
+			<div class="hidden-xs googlemap" id="map"></div>	
+			<div class="cv">
+				<p>¿Queres sumarte<br>a nuestro equipo?</p>
+				<button>Mandanos tu CV</button>
+			</div>
+		</section>
+
+		<script>
+      		function initMap() {
+		        var uluru = {lat: -34.598007, lng: -58.401329};
+		        var map = new google.maps.Map(document.getElementById('map'), {
+		         	zoom: 14,
+		          	center: new google.maps.LatLng(-34.598007,-58.401329),
+		          	styles: [
+		      {
+		        "featureType": "administrative",
+		        "elementType": "labels.text.fill",
+		        "stylers": [
+		        {
+		          "color": "#444444"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "administrative.country",
+		        "elementType": "labels",
+		        "stylers": [
+		        {
+		          "color": "#a0a0a4"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "administrative.locality",
+		        "elementType": "all",
+		        "stylers": [
+		        {
+		          "visibility": "off"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "administrative.locality",
+		        "elementType": "labels",
+		        "stylers": [
+		        {
+		          "color": "#a0a0a4"
+		        },
+		        {
+		          "weight": "0.01"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "administrative.neighborhood",
+		        "elementType": "all",
+		        "stylers": [
+		        {
+		          "visibility": "on"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "administrative.neighborhood",
+		        "elementType": "labels",
+		        "stylers": [
+		        {
+		          "color": "#a0a0a4"
+		        },
+		        {
+		          "weight": "0.01"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "landscape",
+		        "elementType": "all",
+		        "stylers": [
+		        {
+		          "color": "#f2f2f2"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "poi",
+		        "elementType": "all",
+		        "stylers": [
+		        {
+		          "visibility": "off"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "road",
+		        "elementType": "all",
+		        "stylers": [
+		        {
+		          "saturation": -100
+		        },
+		        {
+		          "lightness": 45
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "road",
+		        "elementType": "labels",
+		        "stylers": [
+		        {
+		          "color": "#a0a0a4"
+		        },
+		        {
+		          "weight": "0.68"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "road.highway",
+		        "elementType": "all",
+		        "stylers": [
+		        {
+		          "visibility": "simplified"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "road.arterial",
+		        "elementType": "labels.icon",
+		        "stylers": [
+		        {
+		          "visibility": "off"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "transit",
+		        "elementType": "all",
+		        "stylers": [
+		        {
+		          "visibility": "off"
+		        }
+		        ]
+		      },
+		      {
+		        "featureType": "water",
+		        "elementType": "all",
+		        "stylers": [
+		        {
+		          "color": "#a0a0a4"
+		        },
+		        {
+		          "visibility": "on"
+		        }
+		        ]
+		      }
+		      ],
+		      mapTypeId: google.maps.MapTypeId.ROADMAP
+		        });
+		        var marker = new google.maps.Marker({
+		          position: uluru,
+		          map: map
+		        });
+		      	}
+    	</script>
+	    <script async defer
+	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6A6RLaDW7_RXivlz3qDM7Yy927x090Cg&callback=initMap">
+	    </script>
+	</body>
+
+</html>
